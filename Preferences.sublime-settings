@@ -1,0 +1,149 @@
+{
+	// Theme
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"theme": "Material-Theme-Darker.sublime-theme",
+
+	// Accent
+	"material_theme_accent_acid-lime"         	: false, // Set acid-lime accent color
+	"material_theme_accent_blue"              	: false, // Set blue accent color
+	"material_theme_accent_brba"              	: false, // Set Breaking Bad green accent color
+	"material_theme_accent_bright-teal"       	: false, // Set bright-teal accent color
+	"material_theme_accent_cyan"              	: false, // Set cyan accent color
+	"material_theme_accent_graphite"          	: false, // Set graphite accent color
+	"material_theme_accent_indigo"            	: false, // Set indigo accent color
+	"material_theme_accent_lime"              	: false, // Set lime green accent color
+	"material_theme_accent_orange"            	: true, // Set orange accent color
+	"material_theme_accent_pink"              	: false, // Set pink accent color
+	"material_theme_accent_purple"            	: false, // Set purple accent color
+	"material_theme_accent_red"               	: false, // Set pale red accent color
+	"material_theme_accent_sky"               	: false, // Set bright-cyan accent color
+	"material_theme_accent_tomato"            	: false, // Set tomato red accent color
+	"material_theme_accent_yellow"            	: false, // Set yellow accent color
+
+	// Panels
+	"material_theme_accent_scrollbars"        	: true, // Enable accent color for scrollbars
+	"material_theme_accent_titlebar"          	: true, // Enable accent color for titlebar
+	"material_theme_bright_scrollbars"        	: false, // Bright scrollbars puck color
+	"material_theme_compact_panel"            	: true, // Set minimal padding for the search panel
+	"material_theme_contrast_mode"            	: false, // Enable sidebar and panels contrast mode
+	"material_theme_panel_separator"          	: true, // Show bottom panel separator
+	"material_theme_small_statusbar"          	: true, // Set small status bar
+	"material_theme_titlebar"                 	: true, // Enable title bar (OS X 10.10+)
+
+	// Sidebar
+	"material_theme_arrow_folders"            	: true, // Replace folder icons with arrows
+	"material_theme_big_fileicons"            	: true, // Show bigger file type icons
+	"material_theme_bullet_tree_indicator"    	: true, // Set a bullet as active tree indicator
+	"material_theme_compact_sidebar"          	: true, // Set compact sidebar
+	"material_theme_disable_fileicons"        	: true, // Hide sidebar file type icons
+	"material_theme_disable_folder_animation" 	: true, // Disable folder animation
+	"material_theme_disable_tree_indicator"   	: true, // Disable sidebar file indicator
+
+	// Tabs
+	"material_theme_bold_tab"                 	: true, // Make the tab labels bolder
+	"material_theme_small_tab"                	: true, // Set small tabs
+	"material_theme_tabs_autowidth"           	: true, // Enable autowidth for tabs
+	"material_theme_tabs_separator"           	: true, // Show tabs separator, this disables tab hover animation
+
+	// Material Theme - Appbar addon
+	"material_theme_tree_headings"            	: true, // Show sidebar headings
+	"material_theme_appbar_lime"				: false,
+	"material_theme_appbar_orange"				: false,
+	"material_theme_appbar_purple"				: false,
+	"material_theme_appbar_red"					: false,
+	"material_theme_appbar_yellow"				: false,
+	"material_theme_appbar_indigo"				: false,
+	"material_theme_appbar_pink"				: false,
+	"material_theme_appbar_blue"				: false,
+	"material_theme_appbar_cyan"				: false,
+	"material_theme_appbar_charcoal"			: true,
+
+	// Font
+	"font_face": "Source Code Pro",
+    "font_size": 13,
+    "font_options": ["gray_antialias", "subpixel_antialias", "no_round"], // On retina Mac
+
+    // Line
+    "line_padding_top": 3,
+    "line_padding_bottom": 3,
+    "highlight_line": true,
+    "caret_style": "phase",
+
+    // Syntax
+    "translate_tabs_to_spaces": true,
+    "indent_guide_options": ["draw_normal", "draw_active"],
+    "match_brackets_content": false,
+    "enable_tab_scrolling": false,
+    "show_encoding": true,
+    "draw_white_space": "none",
+
+    // System
+    "swallow_startup_errors": true,
+    "use_simple_full_screen": true,
+    "close_windows_when_empty": false,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "open_files_in_new_window": false,
+
+    // Sidebar and Tabs
+    "sidebar_default": true,
+    "scroll_speed": 5.0,
+    "mini_diff": false,
+    "bold_folder_labels": true,
+    "highlight_modified_tabs": true,
+
+    // Minimap, Scrollbars, Tabs
+	"always_show_minimap_viewport": true,
+    "overlay_scroll_bars": "enabled",
+
+	// Usage
+    "preview_on_click": false,
+    "drag_text": false,
+    "show_definitions": false,
+    "show_errors_inline": false,
+    "word_wrap": false,
+    "scroll_past_end": true,
+
+    // Inclusion and Exclusion
+	"file_exclude_patterns":
+    [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.sublime-workspace"
+    ],
+    "ignored_packages":
+    [
+        "ActionScript",
+        "AppleScript",
+        "ASP",
+        "D",
+        "Diff",
+        "Erlang",
+        "Graphviz",
+        "Groovy",
+        "HTML-CSS-JS Prettify",
+        "Lisp",
+        "Lua",
+        "Objective-C",
+        "OCaml",
+        "Rails",
+        "Ruby",
+        "Vintage"
+    ],
+}
